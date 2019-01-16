@@ -1,0 +1,24 @@
+{
+    "baseExtPath" : "/projects/project/ext/",
+    "test": false,
+    "parseConfig" : {
+        "xtypeNamespaces" : ["Common", "App"],
+        "ExtCreate": true,
+        "Xtype" : true
+    },
+    "directories" : [
+        { 
+            "dir": "Common",
+            "exclude" : [
+                "/projects/project/ext/not_extjs_file.js"
+            ]
+        },
+
+        { 
+            "dir": "App", 
+            "exclude" : [
+                
+            ]
+        }
+    ]
+}
